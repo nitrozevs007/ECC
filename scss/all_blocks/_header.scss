@@ -31,6 +31,7 @@ body {
             p {
                 font-weight: 500;
                 font-size: 10px;
+                width: 200px;
                 line-height: 120%;
                 color: rgba(255, 255, 255, 0.5);
             }
@@ -85,6 +86,15 @@ body {
         .socials {
             display: flex;
             gap: 2px;
+        }
+
+        #socials {
+            border-radius: 100%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .whatsapp {
@@ -179,10 +189,10 @@ body {
     cursor: pointer;
     outline: none;
     transition: color 0.1s ease;
-  }
-  
-  /* Tugma osti chizig'i */
-  .header-link::after {
+}
+
+/* Tugma osti chizig'i */
+.header-link::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -193,44 +203,81 @@ body {
     background: linear-gradient(90deg, transparent, rgb(60, 199, 60), transparent);
     opacity: 0;
     transition: opacity 0.1s ease, width 0.5s ease;
-  }
-  
-  /* Hover va focus holatlari */
-  .header-link:hover::after {
+}
+
+/* Hover va focus holatlari */
+.header-link:hover::after {
     opacity: 1;
     animation: borderAnimation 0.3s forwards;
-  }
-  
-  .header-link:focus::after {
+}
+
+.header-link:focus::after {
     opacity: 1;
     width: 100%;
     animation: none;
-  }
-  
-  /* Animatsiya */
-  @keyframes borderAnimation {
+}
+
+/* Animatsiya */
+@keyframes borderAnimation {
     0% {
-      width: 0%;
+        width: 0%;
     }
+
     25% {
-      width: 25%;
-      left: 37.5%;
-      transform: translateX(-37.5%);
+        width: 25%;
+        left: 37.5%;
+        transform: translateX(-37.5%);
     }
+
     50% {
-      width: 50%;
-      left: 25%;
-      transform: translateX(-25%);
+        width: 50%;
+        left: 25%;
+        transform: translateX(-25%);
     }
+
     90% {
-      width: 90%;
-      left: 5%;
-      transform: translateX(-5%);
+        width: 90%;
+        left: 5%;
+        transform: translateX(-5%);
     }
+
     100% {
-      width: 100%;
-      left: 0;
-      transform: translateX(0);
+        width: 100%;
+        left: 0;
+        transform: translateX(0);
     }
-  }
-  
+}
+
+
+.whatsapp {
+    border-radius: 100%;
+    background: #0CBB65;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telegram {
+    border-radius: 100%;
+    background: #29a8eb;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vk {
+    background-color: #5281B8;
+}
+
+#socials {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

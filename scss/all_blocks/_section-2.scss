@@ -1,0 +1,174 @@
+.section-2 {
+    background: url(../../images/section-2\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 55px;
+    position: relative;
+
+    .section-2-left {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+
+        h2 {
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 120%;
+            text-align: center;
+            color: #fff;
+            width: 484px;
+
+            span {
+                font-weight: 700;
+            }
+        }
+
+        .btns-2 {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            button {
+                border: none;
+            }
+
+            .number {
+                border-radius: 185px;
+                padding: 24px 82px 24px 47px;
+                width: 319px;
+                height: 70px;
+                backdrop-filter: blur(44.29999923706055px);
+                background: #fff;
+
+                a {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #b6b6b6;
+                }
+            }
+
+            .pre-call {
+                border-radius: 97px;
+                padding: 12px 24px;
+                width: 319px;
+                height: 70px;
+                background-color: #0CBB65;
+
+                a {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 140%;
+                text-align: center;
+                color: #9a9a9a;
+                width: 200px;
+
+                a {
+                    text-decoration: none;
+                    text-decoration-skip-ink: none;
+                    color: #0CBB65;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .social-question {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 11px;
+
+            h5 {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 194%;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: rgba(255, 255, 255, 0.8);
+            }
+
+            .icons {
+                display: flex;
+                gap: 11px;
+            }
+
+        }
+    }
+
+    .section-2-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+
+        .ptichka {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            h3 {
+                width: 317px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 133%;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.section-abs {
+    position: absolute;
+    padding: 282px 88px 149px 75px;
+    background: url(../../images/section-2\ img-1.png);
+    bottom: 2px;
+    left: 55%;
+    transform: translate(-50%, -0%);
+    width: 384px;
+    height: 510px;
+
+    button {
+        border-radius: 37px;
+        padding: 11px 23px;
+        backdrop-filter: blur(19.5px);
+        background: rgba(24, 24, 26, 0.41);
+        border: none;
+        display: flex;
+        align-items: center;
+        
+
+        h5 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: right;
+            color: #fff;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 114%;
+            text-align: right;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+}
