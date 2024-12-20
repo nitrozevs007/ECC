@@ -1,0 +1,84 @@
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
+
+    .left-side {
+        position: relative;
+
+        img {
+            margin-left: -427px;
+            z-index: -1;
+        }
+
+        .absolute {
+            position: absolute;
+            right: 0;
+            z-index: 1;
+        }
+    }
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 47px;
+
+        h2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 122%;
+            color: #303030;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 29px;
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 75%;
+                    letter-spacing: 0.01em;
+                    color: #303030;
+                }
+
+                h4 {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 133%;
+                    letter-spacing: 0.02em;
+                    color: #303030;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 171%;
+                    letter-spacing: 0.02em;
+                    color: #888;
+                }
+            }
+        }
+
+        .social-question {
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+
+            .icons {
+                display: flex;
+                gap: 11px;
+                align-items: center;
+            }
+
+        }
+    }
+}

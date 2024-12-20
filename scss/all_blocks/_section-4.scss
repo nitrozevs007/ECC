@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 72px;
+    margin-bottom: 76px;
 
     h2 {
         font-weight: 500;
@@ -14,18 +15,35 @@
         margin-bottom: 40px;
     }
 
-    p {
+
+    #trnasparent-text {
         font-weight: 500;
         font-size: 16px;
         line-height: 125%;
         letter-spacing: 0.02em;
-        background: linear-gradient(180deg, #757575 7.59%, rgba(255, 255, 255, 0) 18.32%);
+        background: linear-gradient(180deg, #757575 22.59%, rgba(255, 255, 255, 0) 40.32%);
         background-clip: text;
+        height: 100px;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
+    #full-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.02em;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .btnhidden {
+        display: none;
+    }
+
     img {
-        margin-top: -190px;
+        margin-top: 0px;
     }
 }
