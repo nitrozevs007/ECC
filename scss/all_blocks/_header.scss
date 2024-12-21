@@ -210,6 +210,10 @@ body {
     opacity: 1;
     animation: borderAnimation 0.3s forwards;
 }
+.header-link:active::after {
+    opacity: 1;
+    animation: borderAnimation 0.3s forwards;
+}
 
 .header-link:focus::after {
     opacity: 1;
